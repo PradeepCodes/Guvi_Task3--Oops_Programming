@@ -6,7 +6,7 @@ public class LibraryManagementSystem {
         Library library = new Library();
 
         while (true) {
-            System.out.println("\nLibrary Management System");
+            System.out.println(" Library Management System");
             System.out.println("1. Add Book");
             System.out.println("2. Remove Book");
             System.out.println("3. Search Book");
@@ -19,7 +19,7 @@ public class LibraryManagementSystem {
                 case 1:
                     System.out.print("Enter Book ID: ");
                     int id = scanner.nextInt();
-                    scanner.nextLine(); // Consume newline
+                    scanner.nextLine();
                     System.out.print("Enter Book Title: ");
                     String title = scanner.nextLine();
                     System.out.print("Enter Book Author: ");

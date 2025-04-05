@@ -19,8 +19,8 @@ public class Library {
     public void removeBook(int bookID) {
         for (int i = 0; i < bookCount; i++) {
             if (books[i].getBookId() == bookID) {
-                books[i] = books[bookCount - 1]; // Replace with last book
-                books[bookCount - 1] = null; // Remove reference
+                books[i] = books[bookCount - 1];
+                books[bookCount - 1] = null;
                 bookCount--;
                 System.out.println("Book removed successfully.");
                 return;
